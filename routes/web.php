@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index');
+    return now() > now()->create('2025-03-10') ? view('index') : view('coming-soon');
 });
 
 Route::get('/coming-soon', function () {
