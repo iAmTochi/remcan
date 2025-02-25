@@ -3,6 +3,10 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+
+Route::middleware(['access'])->group(function () {
+
+
 Route::get('/', function () {
     return now() > now()->create('2025-03-10') ? view('index') : view('coming-soon');
 });
@@ -23,4 +27,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+
+
 require __DIR__.'/auth.php';
+
+});
