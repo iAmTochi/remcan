@@ -20,7 +20,7 @@
  *     07.  Typed Text animation   *
  *     08. Choice js              *
  ==================================*/
-         
+
 //=========================================//
 /*            01) Tiny slider              */
 //=========================================//
@@ -203,7 +203,7 @@ try {
 try {
     if(document.getElementById("days")){
         // The data/time we want to countdown to
-        var eventCountDown = new Date("December 25, 2024 16:37:52").getTime();
+        var eventCountDown = new Date("March 9, 2025 0:00:00").getTime();
 
         // Run myfunc every second
         var myfunc = setInterval(function () {
@@ -388,7 +388,7 @@ try {
         var singleCategories = new Choices('#choices-type');
     }
 } catch (error) {
-    
+
 }
 //for buy
 try {
@@ -402,7 +402,7 @@ try {
         var choicesmaxs = new Choices('#choices-max-price-buy');
     }
 } catch (error) {
-    
+
 }
 
 //for sell
@@ -417,7 +417,7 @@ try {
         var choicesmaxs = new Choices('#choices-max-price-sell');
     }
 } catch (error) {
-    
+
 }
 
 //for rent
@@ -432,5 +432,5 @@ try {
         var choicesmaxs = new Choices('#choices-max-price-rent');
     }
 } catch (error) {
-    
+
 }
