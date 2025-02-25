@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name') }} - Real Estate Bootstrap 5 Landing Template</title>
-    <meta name="description" content="Real Estate Bootstrap 5 Landing Template" />
-    <meta name="keywords" content="Onepage, creative, modern, bootstrap 5, multipurpose, clean, Real Estate, buy, sell, Rent" />
-    <meta name="author" content="Shreethemes" />
+    <title>{{ config('app.name') }} - </title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Dynaton Technologies" />
     <meta name="website" content="https://shreethemes.in/" />
-    <meta name="email" content="support@shreethemes.in" />
-    <meta name="version" content="1.0.0" />
+    <meta name="email" content="" />
+
     <!-- favicon -->
     <link href="{{asset('images/favicon.ico')}}" rel="shortcut icon">
     <!-- Bootstrap core CSS -->
