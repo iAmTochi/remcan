@@ -28,14 +28,17 @@
 <!-- Navbar STart -->
 <header id="topnav" class="defaultscroll sticky">
     <div class="container">
-        <a class="logo" href="index.html">
-                    <span class="logo-light-mode">
-                        <img src="{{asset('images/logo.png')}}" class="l-dark" alt="" width="50">
-                        <img src="{{asset('images/logo.png')}}" class="l-light" alt="" width="50">
-                    </span>
-            <span class="l-dark">{{ config('app.name') }}</span>
-            <span class="l-light" style="color: rgba(255, 255, 255, 0.5);">{{ config('app.name') }}</span>
+        <a class="logo d-flex align-items-center justify-content-center text-center" href="index.html">
+            <span class="logo-light-mode d-flex align-items-center">
+                <img src="{{asset('images/logo.png')}}" class="l-dark me-2" alt="" width="50">
+                <img src="{{asset('images/logo.png')}}" class="l-light me-2" alt="" width="50">
+            </span>
+            <span class="mt-1">
+                <p class="l-dark fw-bold" style="color: #1e293b !important;">{{ config('app.name') }}</p>
+                <p class="l-light text-white-50 fw-bold">{{ config('app.name') }}</p>
+            </span>
         </a>
+
 
         <div class="menu-extras">
             <div class="menu-item">
