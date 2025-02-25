@@ -34,11 +34,11 @@
                     <div class="col-12 p-0">
                         <div class="d-flex flex-column min-vh-100 justify-content-center px-md-5 py-5 px-4">
                             <div class="text-center">
-                                <a href="index.html"><img src="{{asset('')}}/images/logo-icon-white.png" alt=""></a>
+                                <a href="index.html"><img src="{{asset('')}}/images/logo.png" alt="" width="100"></a>
                             </div>
                             <div class="title-heading text-center my-auto">
-                                <h1 class="title-dark text-white mt-2 mb-4 coming-soon">We are coming soon...</h1>
-                                <p class="text-white-50 para-desc para-dark mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                                <h1 class="title-dark text-white mt-2 mb-4 coming-soon">   We are coming soon...</h1>
+                                <p class="text-white-50 para-desc para-dark mx-auto">Real Estate Marketers and Consultants Association of Nigeria, ({{ config('app.name') }})</p>
 
                                 <div id="countdown">
                                     <ul class="count-down list-unstyled">
