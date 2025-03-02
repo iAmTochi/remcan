@@ -28,7 +28,7 @@
 <!-- Navbar STart -->
 <header id="topnav" class="defaultscroll sticky">
     <div class="container">
-        <a class="logo d-flex align-items-center justify-content-center text-center" href="index.html">
+        <a class="logo d-flex align-items-center justify-content-center text-center" href="{{ url('/') }}">
             <span class="logo-light-mode d-flex align-items-center">
                 <img src="{{asset('images/logo.png')}}" class="l-dark me-2" alt="" width="50">
                 <img src="{{asset('images/logo.png')}}" class="l-light me-2" alt="" width="50">
@@ -71,23 +71,14 @@
                 </div>
             </li>
             <li class="list-inline-item ps-1 mb-0">
-                <a href="auth-login.html" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="user" class="icons"></i></a>
+                <a href="{{ route('login') }}" class="btn btn-sm btn-icon btn-pills btn-primary"><i data-feather="user" class="icons"></i></a>
             </li>
         </ul>
 
         <div id="navigation">
             <ul class="navigation-menu nav-left nav-light">
-                <li class="has-submenu parent-menu-item">
-                    <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
-                    <ul class="submenu">
-                        <li><a href="index.html" class="sub-menu-item">Hero One</a></li>
-                        <li><a href="index-two.html" class="sub-menu-item">Hero Two</a></li>
-                        <li><a href="index-three.html" class="sub-menu-item">Hero Three</a></li>
-                        <li><a href="index-four.html" class="sub-menu-item">Hero Four</a></li>
-                        <li><a href="index-five.html" class="sub-menu-item">Hero Five </a></li>
-                        <li><a href="index-six.html" class="sub-menu-item">Hero Six</a></li>
-                        <li><a href="index-seven.html" class="sub-menu-item">Hero Seven</a></li>
-                    </ul>
+                <li class=" {{ request()->routeIs('home') ? 'active':'' }} has-submenu parent-menu-item">
+                    <a href="{{ url('/') }}">Home</a>
                 </li>
 
                 <li><a href="buy.html" class="sub-menu-item">Buy</a></li>

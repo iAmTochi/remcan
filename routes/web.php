@@ -8,8 +8,8 @@ Route::middleware(['access'])->group(function () {
 
 
 Route::get('/', function () {
-    return now() > now()->create('2025-03-10') ? view('index') : view('coming-soon');
-});
+    return  view('index');
+})->name('home');
 
 Route::get('/coming-soon', function () {
     return view('coming-soon');
