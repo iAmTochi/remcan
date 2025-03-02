@@ -30,7 +30,7 @@
 <!-- Navbar End -->
 
 
-@yield('content')
+    @yield('content')
 
 
 <!-- Footer Start -->
