@@ -17,7 +17,7 @@ class CheckLaunchDate
     public function handle(Request $request, Closure $next): Response
     {
         // Set the launch date
-        $launchDate = Carbon::create('2025-03-20');
+        $launchDate = Carbon::create('2025-02-20');
 
         // Check if the current date is after the launch date
         if (now()->lessThan($launchDate)) {
