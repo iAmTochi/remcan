@@ -197,7 +197,7 @@
                         </ul>
                     </div>
                     <div class="card-body content p-4">
-                        <a href="property-detail.html" class="title fs-5 text-dark fw-medium">10765 Hillshire Ave, Baton Rouge, LA 70810, USA</a>
+                        <a href="" class="title fs-5 text-dark fw-medium">10765 Hillshire Ave, Baton Rouge, LA 70810, USA</a>
 
                         <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
                             <li class="d-flex align-items-center me-3">
@@ -247,7 +247,7 @@
                         </ul>
                     </div>
                     <div class="card-body content p-4">
-                        <a href="property-detail.html" class="title fs-5 text-dark fw-medium">59345 STONEWALL DR, Plaquemine, LA 70764, USA</a>
+                        <a href="" class="title fs-5 text-dark fw-medium">59345 STONEWALL DR, Plaquemine, LA 70764, USA</a>
                         <ul class="list-unstyled mt-3 py-3 border-top border-bottom d-flex align-items-center justify-content-between">
                             <li class="d-flex align-items-center me-3">
                                 <i class="mdi mdi-arrow-expand-all fs-5 me-2 text-primary"></i>
