@@ -76,7 +76,7 @@
 <body>
 <!-- Start Hero -->
 <section class="bg-home zoom-image d-flex align-items-center">
-    <div class="bg-overlay image-wrap" style="background: url('images/bg/03.jpg') center;"></div>
+    <div class="bg-overlay image-wrap" style="background: url({{asset('images/bg/03.jpg')}}) center;"></div>
     <div class="bg-overlay bg-gradient-overlay"></div>
     <div class="container">
         <div class="row">
