@@ -83,7 +83,7 @@
             <div class="col-12">
                 <div class="p-4 bg-white rounded-3 shadow-md mx-auto w-100" style="max-width: 400px;">
                     <form>
-                        <a href="index.html"><img src="{{asset('images/logo.png')}}" width="80" class="mb-4 d-block mx-auto" alt=""></a>
+                        <a href="{{ route('home') }}"><img src="{{asset('images/logo.png')}}" width="80" class="mb-4 d-block mx-auto" alt=""></a>
                         <h5 class="mb-3">Please sign in</h5>
 
                         <div class="form-floating mb-2">
@@ -108,7 +108,7 @@
                         <button class="btn btn-primary w-100" type="submit">Sign in</button>
 
                         <div class="col-12 text-center mt-3">
-                            <span><span class="text-muted me-2">Don't have an account ?</span> <a href="auth-signup.html" class="text-dark fw-medium">Sign Up</a></span>
+                            <span><span class="text-muted me-2">Don't have an account ?</span> <a href="{{ route('home') }}" class="text-dark fw-medium">Sign Up</a></span>
                         </div><!--end col-->
                     </form>
                 </div>
