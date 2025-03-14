@@ -25,6 +25,7 @@
                 </div><!-- end slide-inner -->
             </div> <!-- end swiper-slide -->
 
+            @if(false)
             <div class="swiper-slide d-flex align-items-center overflow-hidden">
                 <div class="slide-inner slide-bg-image d-flex align-items-center" style="background: center center;" data-background="images/bg/04.jpg">
                     <div class="bg-overlay"></div>
@@ -64,8 +65,10 @@
                     </div><!--end container-->
                 </div><!-- end slide-inner -->
             </div> <!-- end swiper-slide -->
+            @endif
         </div>
         <!-- end swiper-wrapper -->
+
 
         <!-- swipper controls -->
         <div class="swiper-button-next rounded-circle text-center"></div>
@@ -102,7 +105,7 @@
 
             <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <div class="section-title ms-lg-5">
-                    <h6 class="text-primary fw-medium mb-2">Our story: Towntor</h6>
+                    <h6 class="text-primary fw-medium mb-2">Our story: {{ config('app.name') }}</h6>
                     <h4 class="title mb-3">Efficiency. <br> Transparency. Control.</h4>
                     <p class="text-muted para-desc mb-0">Towntor developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Towntor is Real Estate Redefined.</p>
 
