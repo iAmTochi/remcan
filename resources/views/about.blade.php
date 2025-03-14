@@ -52,8 +52,8 @@
 
             <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <div class="section-title ms-lg-5">
-                    <h6 class="text-primary fw-medium mb-2">Our story: {{ config('app.name') }}</h6>
-                    <h4 class="title mb-3">Efficiency. <br> Transparency. Control.</h4>
+                    <h6 class="text-primary fw-medium mb-2">Our value: {{ config('app.name') }}</h6>
+                    <h4 class="title mb-3">Transparency. Unity. Trust. <br>  Innovation.  Advocacy.</h4>
                     <p class="text-muted para-desc mb-0">
                         We provide a platform where real estate marketers, government
                         institutions, mortgage providers,
@@ -71,6 +71,8 @@
     </div><!--end container-->
 
     <div class="container mt-100 mt-60">
+
+
         <div class="row justify-content-center">
             <div class="col">
                 <div class="section-title text-center mb-4 pb-2">
@@ -79,6 +81,7 @@
                 </div>
             </div><!--end col-->
         </div><!--end row-->
+      
 
         <x-mission-vision/>
         <!--end row-->
