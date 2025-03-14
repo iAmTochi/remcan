@@ -7,21 +7,10 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="Dynaton Technologies" />
-    <meta name="website" content="https://shreethemes.in/" />
+    <meta name="website" content="" />
     <meta name="email" content="" />
 
-    <!-- favicon -->
-    <link href="{{asset('images/favicon.ico')}}" rel="shortcut icon">
-    <!-- Bootstrap core CSS -->
-    <link href="{{asset('')}}/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <!-- Slider -->
-    <link href="{{asset('')}}/css/swiper.min.css" rel="stylesheet" />
-    <!-- Tobii -->
-    <link href="{{asset('')}}/css/tobii.min.css" rel="stylesheet" type="text/css" />
-    <!--Material Icon -->
-    <link href="{{asset('')}}/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <!-- Custom  Css -->
-    <link href="{{asset('')}}/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <x-head-assets/>
 </head>
 
 <body>
@@ -42,15 +31,6 @@
 <!-- Back to top -->
 
 <!-- JAVASCRIPTS -->
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- Tiny slider -->
-<script src="js/swiper.min.js"></script>
-<!-- Tobii -->
-<script src="js/tobii.min.js"></script>
-<!-- Icons -->
-<script src="js/feather.min.js"></script>
-<!-- Custom -->
-<script src="js/plugins.init.js"></script>
-<script src="js/app.js"></script>
+    <x-scripts/>
 </body>
 </html>
