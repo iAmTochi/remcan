@@ -2,9 +2,9 @@
     <div class="row justify-content-center">
         <div class="col">
             <div class="section-title text-center mb-4 pb-2">
-                <h4 class="title mb-3">Property Broker</h4>
+                <h4 class="title mb-3">Meet the Executives</h4>
                 <p class="text-muted para-desc mb-0 mx-auto">A great plateform to buy, sell and rent your properties
-                    without any agent or commisions.</p>
+                    without any agent or commissions.</p>
             </div>
         </div><!--end col-->
     </div><!--end row-->
