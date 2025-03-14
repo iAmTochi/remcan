@@ -61,9 +61,9 @@
                     <a href="{{ route('about') }}" class="sub-menu-item">About</a>
                 </li>
 
-                <li class=" {{ request()->routeIs('services') ? 'active':'' }}">
-                    <a href="{{ route('services') }}" class="sub-menu-item">Services</a>
-                </li>
+{{--                <li class=" {{ request()->routeIs('services') ? 'active':'' }}">--}}
+{{--                    <a href="{{ route('services') }}" class="sub-menu-item">Services</a>--}}
+{{--                </li>--}}
 
                 <li class=" {{ request()->routeIs('contact-us') ? 'active':'' }}">
                     <a href="{{ route('contact-us') }}" class="sub-menu-item">Contact Us</a>
