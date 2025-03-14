@@ -54,11 +54,17 @@
                 <div class="section-title ms-lg-5">
                     <h6 class="text-primary fw-medium mb-2">Our story: {{ config('app.name') }}</h6>
                     <h4 class="title mb-3">Efficiency. <br> Transparency. Control.</h4>
-                    <p class="text-muted para-desc mb-0">Towntor developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Towntor is Real Estate Redefined.</p>
+                    <p class="text-muted para-desc mb-0">
+                        We provide a platform where real estate marketers, government
+                        institutions, mortgage providers,
+                        and private investors collaborate seamlessly to transform Nigeria’s
+                        real estate industry.</p>
+                    <p class="text-muted para-desc mb-0">
+                        Through innovation, advocacy, and strategic partnerships,
+                        we empower members to achieve sustainable growth while advancing professional
+                        standards and fostering trust within the real estate ecosystem.
+                    </p>
 
-                    <div class="mt-4">
-                        <a href="aboutus.html" class="btn btn-pills btn-primary">Read More <i class="mdi mdi-arrow-right align-middle"></i></a>
-                    </div>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -118,7 +124,7 @@
     <x-teams/>
     <!--end container-->
 
-{{--    <x-blog-section/>--}}
+   {{-- <x-blog-section/>--}}
     <!--end container-->
 
     <x-get-in-touch/>
