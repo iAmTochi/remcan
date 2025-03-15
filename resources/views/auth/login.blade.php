@@ -62,14 +62,7 @@
     <meta name="website" content="" />
     <meta name="email" content="" />
     <meta name="version" content="1.0.0" />
-    <!-- favicon -->
-    <link href="images/favicon.ico" rel="shortcut icon">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <!--Material Icon -->
-    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <!-- Custom  Css -->
-    <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <x-head-assets/>
 
 </head>
 
@@ -108,7 +101,7 @@
                         <button class="btn btn-primary w-100" type="submit">Sign in</button>
 
                         <div class="col-12 text-center mt-3">
-                            <span><span class="text-muted me-2">Don't have an account ?</span> <a href="{{ route('home') }}" class="text-dark fw-medium">Sign Up</a></span>
+                            <span><span class="text-muted me-2">Don't have an account ?</span> <a href="{{ route('register') }}" class="text-dark fw-medium">Sign Up</a></span>
                         </div><!--end col-->
                     </form>
                 </div>
@@ -119,12 +112,7 @@
 <!-- ENd Hero -->
 
 <!-- javascript -->
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- Icons -->
-<script src="js/feather.min.js"></script>
-<!-- Custom -->
-<script src="js/plugins.init.js"></script>
-<script src="js/app.js"></script>
+<x-scripts/>
 
 </body>
 
