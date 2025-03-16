@@ -1,4 +1,5 @@
-<x-guest-layout>
+@if(false)
+    <x-guest-layout>
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
@@ -50,3 +51,74 @@
         </div>
     </form>
 </x-guest-layout>
+@endif
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ config('app.name') }} - Real Estate Marketers and Consultants Association of Nigeria</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="website" content="" />
+    <meta name="email" content="" />
+    <meta name="version" content="1.0.0" />
+    <x-head-assets/>
+
+</head>
+
+<body>
+<!-- Start Hero -->
+<section class="bg-home zoom-image d-flex align-items-center">
+    <div class="bg-overlay image-wrap" style="background: url('images/bg/03.jpg') center;"></div>
+    <div class="bg-overlay bg-gradient-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="p-4 bg-white rounded-3 shadow-md mx-auto w-100" style="max-width: 400px;">
+                    <form>
+                        <a href="{{ route('home') }}"><img src="{{asset('images/logo.png')}}" width="80" class="mb-4 d-block mx-auto" alt=""></a>
+                        <h5 class="mb-3">Register your account</h5>
+
+                        <div class="form-floating mb-2">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Harry">
+                            <label for="floatingInput">First Name</label>
+                        </div>
+
+                        <div class="form-floating mb-2">
+                            <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                            <label for="floatingEmail">Email Address</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label text-muted" for="flexCheckDefault">I Accept <a href="#" class="text-primary">Terms And Condition</a></label>
+                        </div>
+
+                        <button class="btn btn-primary w-100" type="submit">Register</button>
+
+                        <div class="col-12 text-center mt-3">
+                            <span><span class="text-muted me-2">Already have an account ? </span> <a href="{{ route('login') }}" class="text-dark fw-medium">Sign in</a></span>
+                        </div><!--end col-->
+                    </form>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- ENd Hero -->
+
+<!-- javascript -->
+<x-scripts/>
+
+</body>
+
+</html>
