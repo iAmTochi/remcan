@@ -1,7 +1,6 @@
 <form {{ $attributes->merge(['action' => $action, 'method' => $method]) }} >
     @csrf
-    <a href="{{ route('home') }}"><img src="{{asset('images/logo.png')}}" width="80" class="mb-4 d-block mx-auto"
-                                       alt=""></a>
+    <a href="{{ route('home') }}"><img src="{{asset('images/logo.png')}}" width="80" class="mb-4 d-block mx-auto" alt=""></a>
     <h5 class="mb-3">Please sign in</h5>
 
     <div class="form-floating mb-2">
