@@ -3,7 +3,8 @@
 @section('content')
 
     <form>
-        <a href="index.html"><img src="images/logo-icon-80.png" class="mb-4 d-block mx-auto" alt=""></a>
+        @csrf
+        <a href="{{ route('home') }}"><img src="{{asset('images/logo.png')}}" width="80" class="mb-4 d-block mx-auto" alt=""></a>
         <h5 class="mb-3">Reset your password</h5>
 
         <p class="text-muted">Please enter your email address. You will receive a link to create a new password via email.</p>
