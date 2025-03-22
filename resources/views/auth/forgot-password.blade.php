@@ -17,7 +17,7 @@
         <button class="btn btn-primary w-100" type="submit">Send</button>
 
         <div class="col-12 text-center mt-3">
-            <span><span class="text-muted me-2">Remember your password ? </span> <a href="auth-login.html" class="text-dark fw-medium">Sign in</a></span>
+            <span><span class="text-muted me-2">Remember your password ? </span> <a href="{{ route('login') }}" class="text-dark fw-medium">Sign in</a></span>
         </div><!--end col-->
     </form>
 
