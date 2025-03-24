@@ -79,23 +79,47 @@
         <div class="row">
             <div class="col-12">
                 <div class="p-4 bg-white rounded-3 shadow-md mx-auto w-100" style="max-width: 400px;">
-                    <form>
+                    <form method="POST" action="{{ route('register') }}">
+                        @csrf
                         <a href="{{ route('home') }}"><img src="{{asset('images/logo.png')}}" width="80" class="mb-4 d-block mx-auto" alt=""></a>
                         <h5 class="mb-3">Register your account</h5>
 
                         <div class="form-floating mb-2">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Harry">
-                            <label for="floatingInput">First Name</label>
+                            <input type="text" class="form-control @error('surname') is-invalid @enderror" id="surname" name="surname" placeholder="Surname">
+                            <label for="surname">Surname</label>
+                            <span role="alert" class="invalid-feedback">
+                                <strong>{{$errors->first('surname')}}</strong>
+                            </span>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="text" class="form-control @error('first_name') is-invalid @enderror" id="first_name" placeholder="First Name">
+                            <label for="first_name">First Name</label>
+                            <span role="alert" class="invalid-feedback">
+                                <strong>{{$errors->first('first_name')}}</strong>
+                            </span>
                         </div>
 
                         <div class="form-floating mb-2">
-                            <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                            <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" id="floatingEmail" placeholder="name@example.com">
                             <label for="floatingEmail">Email Address</label>
+                            <span role="alert" class="invalid-feedback">
+                                <strong>{{$errors->first('email')}}</strong>
+                            </span>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
+                            <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Password">
+                            <label for="password">Password</label>
+                            <span role="alert" class="invalid-feedback">
+                                <strong>{{$errors->first('password')}}</strong>
+                            </span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" id="password_confirmation" placeholder="Password">
+                            <label for="password_confirmation">Password Confirmation</label>
+                            <span role="alert" class="invalid-feedback">
+                                <strong>{{$errors->first('password_confirmation')}}</strong>
+                            </span>
                         </div>
 
                         <div class="form-check mb-3">
@@ -106,7 +130,7 @@
                         <button class="btn btn-primary w-100" type="submit">Register</button>
 
                         <div class="col-12 text-center mt-3">
-                            <span><span class="text-muted me-2">Already have an account ? </span> <a href="{{ route('login') }}" class="text-dark fw-medium">Sign in</a></span>
+                            <span><span class="text-muted me-2">Already have an account? </span> <a href="{{ route('login') }}" class="text-dark fw-medium">Sign in</a></span>
                         </div><!--end col-->
                     </form>
                 </div>
