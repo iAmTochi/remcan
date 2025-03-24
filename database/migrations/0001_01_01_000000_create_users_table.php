@@ -13,10 +13,28 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('surname');
+            $table->string('first_name');
+            $table->string('other_names')->nullable();
+            $table->date('dob')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('phone')->unique();
+            $table->text('address')->unique();
+            $table->text('photo')->unique();
+            $table->string('nationality')->nullable();
+            $table->string('job_title')->nullable();
+            $table->string('organization_name')->nullable();
+            $table->text('organization_address')->nullable();
+            $table->enum('years_of_experience', ['0–2','3–5','6–10','10+'])->default('0–2');
+            $table->foreignId('category_id')->nullable();
+            $table->foreignId('state_id')->nullable();
+            $table->foreignId('lga_id')->nullable();
+            $table->foreignId('referred_by')->nullable();
+            $table->longText('why_you_want_to_join')->nullable();
+            $table->longText('value_you_bring')->nullable();
+
             $table->rememberToken();
             $table->timestamps();
         });
@@ -35,6 +53,10 @@ return new class extends Migration
             $table->longText('payload');
             $table->integer('last_activity')->index();
         });
+
+        Schema::dropIfExists('users');
+        Schema::dropIfExists('password_reset_tokens');
+        Schema::dropIfExists('sessions');
     }
 
     /**
