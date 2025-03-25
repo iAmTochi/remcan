@@ -21,8 +21,8 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('phone')->unique();
-            $table->text('address')->unique();
-            $table->text('photo')->unique();
+            $table->text('address')->nullable();
+            $table->text('photo')->nullable();
             $table->string('nationality')->nullable();
             $table->string('job_title')->nullable();
             $table->string('organization_name')->nullable();
