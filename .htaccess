@@ -1,6 +1,4 @@
-<FilesMatch ".(?:html|php)$">
-SetHandler application/x-httpd-alt-php82
-</FilesMatch>
+
 
 
 <IfModule mod_rewrite.c>
