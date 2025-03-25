@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="Dynaton Technologies" />
-    <meta name="website" content="https://shreethemes.in/" />
+    <meta name="website" content="" />
     <meta name="email" content="" />
 
     <!-- favicon -->
