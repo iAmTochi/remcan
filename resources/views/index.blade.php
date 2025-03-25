@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+
 <!-- Hero Start -->
 <section class="swiper-slider-hero position-relative d-block vh-100" id="home">
     <div class="swiper-container">
