@@ -92,7 +92,7 @@
                             </span>
                         </div>
                         <div class="form-floating mb-2">
-                            <input type="text" class="form-control @error('first_name') is-invalid @enderror" id="first_name" placeholder="First Name">
+                            <input type="text" name="first_name" class="form-control @error('first_name') is-invalid @enderror" id="first_name" placeholder="First Name">
                             <label for="first_name">First Name</label>
                             <span role="alert" class="invalid-feedback">
                                 <strong>{{$errors->first('first_name')}}</strong>
@@ -100,7 +100,7 @@
                         </div>
 
                         <div class="form-floating mb-2">
-                            <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" id="floatingEmail" placeholder="name@example.com">
+                            <input type="email"  class="form-control @error('email') is-invalid @enderror" name="email" id="floatingEmail" placeholder="name@example.com">
                             <label for="floatingEmail">Email Address</label>
                             <span role="alert" class="invalid-feedback">
                                 <strong>{{$errors->first('email')}}</strong>
@@ -108,14 +108,14 @@
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Password">
+                            <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Password">
                             <label for="password">Password</label>
                             <span role="alert" class="invalid-feedback">
                                 <strong>{{$errors->first('password')}}</strong>
                             </span>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" id="password_confirmation" placeholder="Password">
+                            <input type="password" name="password_confirmation" class="form-control @error('password_confirmation') is-invalid @enderror" id="password_confirmation" placeholder="Password">
                             <label for="password_confirmation">Password Confirmation</label>
                             <span role="alert" class="invalid-feedback">
                                 <strong>{{$errors->first('password_confirmation')}}</strong>
