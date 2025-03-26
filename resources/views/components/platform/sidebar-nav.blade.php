@@ -8,7 +8,7 @@
             <img src="{{ asset('platform') }}/img/avatars/avatar.jpg" class="img-fluid rounded-circle mb-2"
                  alt="Linda Miller"/>
             <div class="fw-bold">{{ auth()->user()->name }}</div>
-            <small>Front-end Developer</small>
+            <small>{{ ucfirst(auth()->user()->type) }}</small>
         </div>
 
         <ul class="sidebar-nav">
