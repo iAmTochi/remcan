@@ -3,9 +3,12 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Str;
 
 class User extends Authenticatable
 {
@@ -45,5 +48,30 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+
+    /**
+     * @return Attribute
+     */
+    public function name(): Attribute
+    {
+        return Attribute::get(fn() => Str::title("$this->surname $this->first_name"));
+    }
+
+    /**
+     * @return Attribute
+     */
+    public function fullName(): Attribute
+    {
+        return Attribute::get(fn() => Str::title("$this->last_name $this->first_name $this->other_name"));
+    }
+
+    /**
+     * @return Attribute
+     */
+    public function age(): Attribute
+    {
+        return Attribute::get(fn() => is_null($this->dob) ? '' : Carbon::parse($this->dob)->age);
     }
 }
