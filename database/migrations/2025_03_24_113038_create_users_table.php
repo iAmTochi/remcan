@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('phone')->unique();
             $table->text('address')->nullable();
             $table->text('photo')->nullable();
+            $table->enum('gender', ['m','f'])->nullable();
             $table->string('nationality')->nullable();
             $table->string('job_title')->nullable();
             $table->string('organization_name')->nullable();
