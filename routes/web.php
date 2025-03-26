@@ -33,4 +33,12 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
+    Route::match(['get', 'post'], '/register', function (Request $request) {
+        abort(404);
+    });
+
+    Route::match(['get', 'post'], '/login', function (Request $request) {
+        abort(404);
+    });
+
 });
