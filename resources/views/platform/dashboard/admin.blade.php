@@ -169,7 +169,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <h5 class="card-title mb-0">Top Selling Products</h5>
+                                <h5 class="card-title mb-0">Recently Approved Agents</h5>
                             </div>
                             <table id="datatables-dashboard-products" class="table table-striped my-0">
                                 <thead>
