@@ -79,15 +79,21 @@
                     <li class="sidebar-item"><a class='sidebar-link' href='charts-apexcharts.html'>ApexCharts</a></li>
                 </ul>
             </li>
-            <li class="sidebar-header">
-                Elements
-            </li>
 
-            <li class="sidebar-item">
-                <a  class="sidebar-link">
-                    <i class="align-middle me-2 fas fa-fw fa-power-off"></i> <span class="align-middle">Logout</span>
-                </a>
-            </li>
+            <hr>
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <li class="sidebar-item">
+                    <a href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                        this.closest('form').submit();"
+                       class="sidebar-link">
+                        <i class="align-middle me-2 fas fa-fw fa-power-off"></i> <span class="align-middle">{{ __('Log Out') }}</span>
+                    </a>
+
+                </li>
+
+            </form>
 
 
         </ul>

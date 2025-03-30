@@ -20,8 +20,14 @@
                     <a class="dropdown-item" href="#"><i class="align-middle me-1 fas fa-fw fa-user"></i> View Profile</a>
 
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i
-                                class="align-middle me-1 fas fa-fw fa-arrow-alt-circle-right"></i> Sign out</a>
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <a class="dropdown-item"
+                           href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                            this.closest('form').submit();">
+                            <i class="align-middle me-1 fas fa-fw fa-arrow-alt-circle-right"></i> {{ __('Log Out') }}</a>
+                    </form>
                 </div>
             </li>
         </ul>
