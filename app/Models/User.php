@@ -79,7 +79,7 @@ class User extends Authenticatable
     }
 
     public function isFemale():bool
-    {
+    { 
         return $this->gender == 'F';
     }
 }
