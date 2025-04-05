@@ -73,13 +73,13 @@ class User extends Authenticatable
         return  $this->belongsTo(Category::class);
     }
 
-    public function isMale():bool
-    {
-        return $this->gender == 'M';
-    }
-
-    public function isFemale():bool
-    { 
-        return $this->gender == 'F';
-    }
+//    public function isMale():bool
+//    {
+//        return $this->gender == 'M';
+//    }
+//
+//    public function isFemale():bool
+//    { 
+//        return $this->gender == 'F';
+//    }
 }
