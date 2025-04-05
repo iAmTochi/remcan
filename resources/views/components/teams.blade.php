@@ -27,8 +27,8 @@
                 </div>
 
                 <div class="content mt-3">
-                    <a href="page-team-detail.html" class="text-dark h5 mb-0 title">Jack John</a>
-                    <h6 class="text-muted mb-0 fw-normal">Broker</h6>
+                    <a href="page-team-detail.html" class="text-dark h5 mb-0 title">Ahmed Salau</a>
+                    <h6 class="text-muted mb-0 fw-normal">National Treasurer</h6>
                 </div>
             </div>
         </div><!--end col-->
