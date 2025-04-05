@@ -50,8 +50,8 @@
                 </div>
 
                 <div class="content mt-3">
-                    <a href="page-team-detail.html" class="text-dark h5 mb-0 title">Krista John</a>
-                    <h6 class="text-muted mb-0 fw-normal">Broker</h6>
+                    <a href="page-team-detail.html" class="text-dark h5 mb-0 title">ANDENIRA AYUBA ANDE PHILBERTS Esq.</a>
+                    <h6 class="text-muted mb-0 fw-normal">Legal Adviser</h6>
                 </div>
             </div>
         </div><!--end col-->
