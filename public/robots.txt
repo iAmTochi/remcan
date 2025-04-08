@@ -1,2 +1,15 @@
 User-agent: *
-Disallow:
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /node_modules/
+Disallow: /resources/
+Disallow: /routes/
+Disallow: /config/
+Disallow: /database/
+Disallow: /tests/
+
+# Allow everything else
+Allow: /
+
+# Optional: If you have or plan to add a sitemap
+# Sitemap: https://yourdomain.com/sitemap.xml
