@@ -23,16 +23,16 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/" target="_blank" class="rounded-3"><i
+                                    <a href="https://web.facebook.com/profile.php?id=61567180021459" target="_blank" class="rounded-3"><i
                                                 data-feather="facebook" class="fea icon-sm align-middle"
                                                 title="facebook"></i></a></li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.instagram.com/" target="_blank" class="rounded-3">
+                                    <a href="https://www.instagram.com/officialremcan/" target="_blank" class="rounded-3">
                                         <i data-feather="instagram" class="fea icon-sm align-middle" title="instagram"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://x.com/" target="_blank" class="rounded-3">
+                                    <a href="https://x.com/officialremcan" target="_blank" class="rounded-3">
                                         <i data-feather="x" class="fea icon-sm align-middle" title="x"></i>
                                     </a>
                                 </li>
@@ -90,7 +90,7 @@
                             <div class="d-flex mt-4">
                                 <i data-feather="map-pin" class="fea icon-sm text-primary mt-1 me-3"></i>
                                 <div class="">
-                                    <p class="mb-2">8 Haumbo Cresent, <br> Wuse zone 7, <br> Abuja</p>
+                                    <p class="mb-2"> Ekiti House 1st floor, opposite Ministry of Justice, <br> Beside This day Dome, <br>Central Business District, Abuja</p>
                                     <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
                                        data-type="iframe" class="text-primary lightbox">View on Google map</a>
                                 </div>
@@ -98,12 +98,12 @@
 
                             <div class="d-flex mt-4">
                                 <i data-feather="mail" class="fea icon-sm text-primary mt-1 me-3"></i>
-                                <a href="mailto:support@remcanonline.com" class="text-foot">support@remcanonline.com</a>
+                                <a href="mailto:remcanonline@yahoo.com" class="text-foot">remcanonline@yahoo.com</a>
                             </div>
 
                             <div class="d-flex mt-4">
                                 <i data-feather="phone" class="fea icon-sm text-primary mt-1 me-3"></i>
-                                <a href="tel:+234 907 423 6081" class="text-foot">+234 907 423 6081</a>
+                                <a href="tel:+234 813 331 2250" class="text-foot">+234 813 331 2250</a>
                             </div>
                         </div><!--end col-->
                     </div><!--end row-->
