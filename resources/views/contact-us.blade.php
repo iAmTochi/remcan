@@ -98,8 +98,8 @@
 
                     <div class="mt-4">
                         <h5 class="mb-3">Phone</h5>
-                        <p class="text-muted">Start working with Towntor that can provide everything</p>
-                        <a href="tel:+152534-468-854" class="text-primary">+152 534-468-854</a>
+                        <p class="text-muted">Start working with REMCAN that can provide you with support</p>
+                        <a href="tel:+234 813 331 2250" class="text-primary">+234 813 331 2250</a>
                     </div>
                 </div>
             </div><!--end col-->
@@ -115,8 +115,9 @@
 
                     <div class="mt-4">
                         <h5 class="mb-3">Email</h5>
-                        <p class="text-muted">Start working with Towntor that can provide everything</p>
-                        <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                        <p class="text-muted">Start working with REMCAN that can provide you with support</p>
+                        <a href="mailto:remcanonline@yahoo.com" class="text-primary">remcanonline@yahoo.com</a><br>
+                        <a href="mailto:remcanonline@gmail.com" class="text-primary">remcanonline@gmail.com</a><br>
                     </div>
                 </div>
             </div><!--end col-->
@@ -132,8 +133,8 @@
 
                     <div class="mt-4">
                         <h5 class="mb-3">Location</h5>
-                        <p class="text-muted">C/54 Northwest Freeway, Suite 558, <br>Houston, USA 485</p>
-                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" class="lightbox text-primary" data-type="iframe" data-group="iframe" data-width="1024px" data-height="576px">View on Google map</a>
+                        <p class="text-muted">Ekiti House 1st floor, opposite Ministry of Justice, Beside This day Dome, Central Business District, Abuja.</p>
+                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9846562500147!2d7.4936536750192815!3d9.065161690997618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bb3bd9c078f%3A0x11ae136a3955745a!2sEkiti%20House!5e0!3m2!1sen!2sng!4v1744616078431!5m2!1sen!2sng" class="lightbox text-primary" data-type="iframe" data-group="iframe" data-width="1024px" data-height="576px">View on Google map</a>
                     </div>
                 </div>
             </div><!--end col-->
@@ -145,7 +146,8 @@
             <div class="col-12 p-0">
                 <div class="card map border-0">
                     <div class="card-body p-0">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style="border:0" allowfullscreen></iframe>
+{{--                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style="border:0" allowfullscreen></iframe>--}}
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9846562500147!2d7.4936536750192815!3d9.065161690997618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bb3bd9c078f%3A0x11ae136a3955745a!2sEkiti%20House!5e0!3m2!1sen!2sng!4v1744616078431!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div><!--end col-->
