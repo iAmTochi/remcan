@@ -17,11 +17,13 @@
                             <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
 
 
+                                @if(false)
                                 <li class="list-inline-item">
                                     <a href="http://linkedin.com/company/" target="_blank" class="rounded-3">
                                         <i data-feather="linkedin" class="fea icon-sm align-middle" title="Linkedin"></i>
                                     </a>
                                 </li>
+                                @endif
                                 <li class="list-inline-item">
                                     <a href="https://web.facebook.com/profile.php?id=61567180021459" target="_blank" class="rounded-3"><i
                                                 data-feather="facebook" class="fea icon-sm align-middle"
