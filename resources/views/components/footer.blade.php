@@ -93,8 +93,7 @@
                                 <i data-feather="map-pin" class="fea icon-sm text-primary mt-1 me-3"></i>
                                 <div class="">
                                     <p class="mb-2"> Ekiti House 1st floor, opposite Ministry of Justice, <br> Beside This day Dome, <br>Central Business District, Abuja</p>
-                                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
-                                       data-type="iframe" class="text-primary lightbox">View on Google map</a>
+                                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9846562500147!2d7.4936536750192815!3d9.065161690997618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bb3bd9c078f%3A0x11ae136a3955745a!2sEkiti%20House!5e0!3m2!1sen!2sng!4v1744616078431!5m2!1sen!2sng" class="lightbox text-primary" data-type="iframe" data-group="iframe" data-width="1024px" data-height="576px">View on Google map</a>
                                 </div>
                             </div>
 
